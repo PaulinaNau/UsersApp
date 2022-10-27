@@ -9,6 +9,7 @@ export const Wrapper = styled.div`
   box-shadow: 0 0 5px lightGrey;
   padding: 30px 60px;
   position: relative;
+  margin: 30px;
 `;
 
 export const StyledUsersList = styled.ul`

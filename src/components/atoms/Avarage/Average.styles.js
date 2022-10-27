@@ -6,7 +6,7 @@ export const StyledAverage = styled.div`
   border-radius: 25px;
   background: ${({ theme, value }) => {
     if (value > 4) return theme.colors.success;
-    if (value > 3) return theme.colors.warning;
+    if (value > 3) return theme.colors.yellow;
     if (value > 2) return theme.colors.error;
     return theme.colors.grey;
   }};
