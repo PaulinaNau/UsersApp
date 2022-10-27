@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { theme } from 'assets/styles/themes';
 
 export const StyledAverage = styled.div`
   width: 50px;
@@ -14,6 +13,7 @@ export const StyledAverage = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: ${({ theme }) => theme.fontSize.s};
+  font-size: ${({ theme }) => theme.fontSize.m};
   font-weight: bold;
+  color: ${({ theme }) => theme.colors.white}
 `;
