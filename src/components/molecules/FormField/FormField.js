@@ -1,14 +1,14 @@
 import PropTypes from 'prop-types';
-import { Label } from 'components/atoms/Label.styles';
-import { Input } from 'components/atoms/Input.styles';
+import { Label } from 'components/atoms/Label/Label';
+import { Input } from 'components/atoms/Input/Input';
 import { Wrapper } from './FormFields.styles';
 
-const FormField = ({ label, name, id, type = 'text' }) => {
+const FormField = ({ label, name, id, type = 'text', value, onChange }) => {
   return (
     <>
       <Wrapper>
         <Label htmlFor={id}>{label}</Label>
-        <Input name={name} id={id} type={type} />
+        <Input name={name} id={id} type={type} value={value} onChange={onChange}/>
       </Wrapper>
     </>
   );

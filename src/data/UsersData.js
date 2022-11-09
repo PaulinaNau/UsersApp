@@ -1,10 +1,5 @@
 export const users = [
   {
-    name: 'Jan Kowalski',
-    attendance: '40%',
-    average: '2.3',
-  },
-  {
     name: 'Michał Nowak',
     attendance: '40%',
     average: '3.8',
