@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavWrapper, StyledLink } from './Natigation.styles';
+import { NavWrapper, StyledLink } from './Navigation.styles';
 
 const Navigation = () => {
   return (

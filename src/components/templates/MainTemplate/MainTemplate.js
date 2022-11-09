@@ -1,5 +1,5 @@
 import React from 'react';
-import Navigation from 'components/organisms/Navigation/Natigation';
+import Navigation from 'components/organisms/Navigation/Navigation';
 import { MainWrapper } from './MainTemplates.styles';
 
 const MainTemplate = ({ children }) => {
