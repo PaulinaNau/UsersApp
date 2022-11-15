@@ -11,10 +11,8 @@ export const NavWrapper = styled.div`
   display: flex;
   flex-direction: column;
   padding: 50px 0 0 100px;
-
   `;
 
-// const activeClassName = 'active-link';
 
 export const StyledLink = styled(NavLink)`
 text-decoration: none;

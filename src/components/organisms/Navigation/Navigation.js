@@ -5,8 +5,8 @@ const Navigation = () => {
   return (
     <>
       <NavWrapper>
-        <StyledLink activeClassName="active-link" exact to="/">Dashboard</StyledLink>
-        <StyledLink activeClassName="active-link" to="/add-user">Settings</StyledLink>
+        <StyledLink exact to="/">Dashboard</StyledLink>
+        <StyledLink to="/add-user">Settings</StyledLink>
       </NavWrapper>
     </>
   );
