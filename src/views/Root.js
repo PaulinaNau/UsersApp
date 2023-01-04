@@ -8,6 +8,7 @@ import MainTemplate from 'components/templates/MainTemplate/MainTemplate';
 import AddUser from 'views/AddUser';
 import Dashboard from 'views/Dashboard';
 import UsersProvider from 'providers/UsersProvider';
+import NewsSection from 'views/News';
 
 const Root = () => {
   return (
@@ -18,8 +19,9 @@ const Root = () => {
           <UsersProvider>
             <Wrapper>
               <Routes>
+                <Route exact path="/dashboard" element={<Dashboard />}></Route>
                 <Route path="/add-user" element={<AddUser />}></Route>
-                <Route path="/" element={<Dashboard />}></Route>
+                <Route path="/news" element={<NewsSection />}></Route>
               </Routes>
             </Wrapper>
           </UsersProvider>

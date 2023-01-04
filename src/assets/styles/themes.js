@@ -10,8 +10,9 @@ export const theme = {
         yellow: '#E1D888',
       },
       fontSize: {
+        xl: '30px',
         l: '17px',
-        m: '12px',
+        m: '14px',
         s: '11px',
       },
 }

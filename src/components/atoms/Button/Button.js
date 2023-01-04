@@ -18,6 +18,7 @@ display: flex;
       background-color: ${({theme}) => theme.colors.success};
       box-shadow: none;
       color: ${({theme}) => theme.colors.white};
+      cursor: pointer;
     }
 
 `;

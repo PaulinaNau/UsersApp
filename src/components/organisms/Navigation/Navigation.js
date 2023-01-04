@@ -1,12 +1,16 @@
 import React from 'react';
-import { NavWrapper, StyledLink } from './Navigation.styles';
+import { NavWrapper, StyledLink, Logo } from './Navigation.styles';
 
 const Navigation = () => {
   return (
     <>
       <NavWrapper>
-        <StyledLink exact to="/">Dashboard</StyledLink>
-        <StyledLink to="/add-user">Settings</StyledLink>
+        <Logo exact to="/dashboard">
+          Students App
+        </Logo>
+        <StyledLink exact to="/dashboard">Dashboard</StyledLink>
+        <StyledLink to="/add-user">Add new student</StyledLink>
+        <StyledLink to="/news">Students News</StyledLink>
       </NavWrapper>
     </>
   );

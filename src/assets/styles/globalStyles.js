@@ -14,8 +14,15 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-a, button {
+button {
     font-family: 'Poppins', sans-serif;
 }
+
+a { 
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: inherit,
+ } 
+
 
 `;
