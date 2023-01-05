@@ -9,8 +9,6 @@ export const StyledHomeTitle = styled.h1`
   @media (max-width: 768px) {
     font-size: ${({ theme }) => theme.fontSize.xl};
   }
-
-
 `;
 
 
