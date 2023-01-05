@@ -9,6 +9,7 @@ import AddUser from 'views/AddUser';
 import Dashboard from 'views/Dashboard';
 import UsersProvider from 'providers/UsersProvider';
 import NewsSection from 'views/News';
+import Home from './Home';
 
 const Root = () => {
   return (
@@ -19,6 +20,7 @@ const Root = () => {
           <UsersProvider>
             <Wrapper>
               <Routes>
+                <Route exact path="/" element={<Home />}></Route>
                 <Route exact path="/dashboard" element={<Dashboard />}></Route>
                 <Route path="/add-user" element={<AddUser />}></Route>
                 <Route path="/news" element={<NewsSection />}></Route>

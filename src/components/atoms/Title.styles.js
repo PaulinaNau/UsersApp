@@ -1,5 +1,19 @@
 import styled from 'styled-components';
 
+export const StyledHomeTitle = styled.h1`
+  font-weight: bold;
+  color: ${({ theme }) => theme.colors.white};
+  font-size: 50px;
+  text-align: center;
+
+  @media (max-width: 768px) {
+    font-size: ${({ theme }) => theme.fontSize.xl};
+  }
+
+
+`;
+
+
 export const StyledTitle = styled.p`
   font-weight: bold;
   color: ${({ theme }) => theme.colors.yellow};

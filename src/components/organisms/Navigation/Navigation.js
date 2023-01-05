@@ -5,7 +5,7 @@ const Navigation = () => {
   return (
     <>
       <NavWrapper>
-        <Logo exact to="/dashboard">
+        <Logo exact to="/">
           Students App
         </Logo>
         <StyledLink exact to="/dashboard">Dashboard</StyledLink>

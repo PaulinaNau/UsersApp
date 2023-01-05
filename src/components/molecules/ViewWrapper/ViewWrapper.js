@@ -7,7 +7,7 @@ export const ViewWrapper = styled.div`
   max-width: 700px;
   padding: 40px 50px;
   border-radius: 25px;
-  box-shadow: 0 5px 15px -10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 15px -10px ${({ theme }) => theme.colors.darkGrey};
   height: 90%;
   overflow-y: scroll;
   scrollbar-width: thin;
@@ -38,3 +38,10 @@ export const ViewWrapper = styled.div`
   }
 
 `;
+
+export const DisplayColumn = styled.div`
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+`
